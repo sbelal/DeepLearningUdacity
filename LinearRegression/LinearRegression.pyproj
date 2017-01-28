@@ -12,8 +12,6 @@
     <OutputPath>.</OutputPath>
     <Name>LinearRegression</Name>
     <RootNamespace>LinearRegression</RootNamespace>
-    <InterpreterId>{f610da88-1033-4dec-a1e8-168512246dfb}</InterpreterId>
-    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,19 +23,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LinearRegression.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Interpreter Include="DeepLearningEnv\">
-      <Id>{f610da88-1033-4dec-a1e8-168512246dfb}</Id>
-      <BaseInterpreter>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</BaseInterpreter>
-      <Version>3.5</Version>
-      <Description>DeepLearningEnv (Python 64-bit 3.5)</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <LibraryPath>Lib\</LibraryPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>Amd64</Architecture>
-    </Interpreter>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
