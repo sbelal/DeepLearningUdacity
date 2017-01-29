@@ -12,7 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>LinearRegression</Name>
     <RootNamespace>LinearRegression</RootNamespace>
-    <InterpreterId>{79500cab-5d17-4f4b-96e0-e8508a6389e7}</InterpreterId>
+    <InterpreterId>{a4b71b64-a188-4051-a6ce-f5348998211f}</InterpreterId>
     <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -27,8 +27,11 @@
     <Compile Include="LinearRegression.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Interpreter Include="env\">
-      <Id>{79500cab-5d17-4f4b-96e0-e8508a6389e7}</Id>
+      <Id>{a4b71b64-a188-4051-a6ce-f5348998211f}</Id>
       <BaseInterpreter>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</BaseInterpreter>
       <Version>3.5</Version>
       <Description>env (Python 64-bit 3.5)</Description>
