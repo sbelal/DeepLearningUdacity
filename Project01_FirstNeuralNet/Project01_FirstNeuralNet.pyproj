@@ -25,18 +25,12 @@
     <Compile Include="Project01_FirstNeuralNet.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DLND-your-first-network\" />
-    <Folder Include="DLND-your-first-network\Bike-Sharing-Dataset\" />
-    <Folder Include="__MACOSX\" />
-    <Folder Include="__MACOSX\DLND-your-first-network\" />
+    <Folder Include="Bike-Sharing-Dataset\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DLND-your-first-network\.DS_Store" />
-    <Content Include="DLND-your-first-network\Bike-Sharing-Dataset\day.csv" />
-    <Content Include="DLND-your-first-network\Bike-Sharing-Dataset\hour.csv" />
-    <Content Include="DLND-your-first-network\Bike-Sharing-Dataset\Readme.txt" />
-    <Content Include="DLND-your-first-network\dlnd-your-first-neural-network.ipynb" />
-    <Content Include="__MACOSX\DLND-your-first-network\._.DS_Store" />
+    <Content Include="Bike-Sharing-Dataset\day.csv" />
+    <Content Include="Bike-Sharing-Dataset\hour.csv" />
+    <Content Include="Bike-Sharing-Dataset\Readme.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
