@@ -199,23 +199,13 @@ class NeuralNetwork(object):
 		output_errors = targets - final_outputs
 		output_grad = output_errors
 
-		# TODO: Backpropagated error
-		hidden_errors = output_errors * self.weights_hidden_to_output
-		hidden_grad = hidden_errors.T * hidden_outputs * (1 - hidden_outputs)
+		# TODO: Backpropagated error		
+		hidden_errors = np.dot(self.weights_hidden_to_output.T, output_errors)
+		hidden_grad = hidden_outputs * (1 - hidden_outputs)
 				
-		# TODO: Update the weights
-		self.weights_hidden_to_output += self.lr * output_errors * hidden_outputs.T		
-		self.weights_input_to_hidden += self.lr * hidden_grad * inputs.T
-
-		#output_errors = targets - final_outputs
-		#output_grad = output_errors # The acivation function for putput layer is
-		#f(x) = x so its derivative is 1.
-		#hidden_errors = np.dot(self.weights_hidden_to_output.T,output_errors)
-		#hidden_grad = hidden_outputs * (1 - hidden_outputs)
-		#self.weights_hidden_to_output += self.lr * output_errors * hidden_outputs.T
-		#self.weights_input_to_hidden += self.lr * np.dot((hidden_errors *
-		#hidden_grad), inputs.T)
-
+		# TODO: Update the weights		
+		self.weights_hidden_to_output += self.lr * np.dot(output_errors, hidden_outputs.T)		
+		self.weights_input_to_hidden += self.lr * np.dot(hidden_errors * hidden_grad, inputs.T)
 
 	def run(self, inputs_list):
 		# Run a forward pass through the network
@@ -286,7 +276,7 @@ def MSE(y, Y):
 import sys
 
 ### Set the hyperparameters here ###
-epochs = 3000
+epochs = 100
 learning_rate = 0.01
 hidden_nodes = 40
 output_nodes = 1
