@@ -31,6 +31,8 @@
     <Content Include="Bike-Sharing-Dataset\day.csv" />
     <Content Include="Bike-Sharing-Dataset\hour.csv" />
     <Content Include="Bike-Sharing-Dataset\Readme.txt" />
+    <Content Include="dlnd-your-first-neural-network.html" />
+    <Content Include="dlnd-your-first-neural-network.ipynb" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

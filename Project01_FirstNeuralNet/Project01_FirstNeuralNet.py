@@ -286,9 +286,9 @@ def MSE(y, Y):
 import sys
 
 ### Set the hyperparameters here ###
-epochs = 100
-learning_rate = 0.5
-hidden_nodes = 2
+epochs = 3000
+learning_rate = 0.01
+hidden_nodes = 40
 output_nodes = 1
 
 N_i = train_features.shape[1]
