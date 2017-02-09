@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Project01_FirstNeuralNet", "Project01_FirstNeuralNet\Project01_FirstNeuralNet.pyproj", "{C0DD45FF-E01D-48A6-8DD7-AEA8D336DD36}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SentimentAnalysis", "SentimentAnalysis\SentimentAnalysis.pyproj", "{056AF145-F975-4465-B4C7-36871795A0AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,8 @@ Global
 		{0C6048BA-2770-4552-9039-7D8540F94F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0DD45FF-E01D-48A6-8DD7-AEA8D336DD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0DD45FF-E01D-48A6-8DD7-AEA8D336DD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056AF145-F975-4465-B4C7-36871795A0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056AF145-F975-4465-B4C7-36871795A0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
