@@ -244,3 +244,4 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 /LinearRegression/env
+/Project01_FirstNeuralNet/.ipynb_checkpoints
