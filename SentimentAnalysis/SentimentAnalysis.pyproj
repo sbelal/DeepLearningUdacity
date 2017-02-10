@@ -29,6 +29,33 @@
   <ItemGroup>
     <InterpreterReference Include="{31adc778-3bc0-46b2-ab2a-43cfd5176c01}\3.5" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="sentiment_network\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sentiment_network\.DS_Store" />
+    <Content Include="sentiment_network\labels.txt" />
+    <Content Include="sentiment_network\reviews.txt" />
+    <Content Include="sentiment_network\Sentiment Classification - Intro.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Mini Project 1.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Mini Project 2.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Mini Project 3.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Mini Project 4.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Mini Project 5.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Mini Project 6.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Project 1 Solution.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Project 2 Solution.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Project 3 Solution.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Project 4 Solution.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Project 5 Solution.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - Project 6 Solution.ipynb" />
+    <Content Include="sentiment_network\Sentiment Classification - What%27s Going on in the Weights.ipynb" />
+    <Content Include="sentiment_network\sentiment_network.png" />
+    <Content Include="sentiment_network\sentiment_network_2.png" />
+    <Content Include="sentiment_network\sentiment_network_pos.png" />
+    <Content Include="sentiment_network\sentiment_network_sparse.png" />
+    <Content Include="sentiment_network\sentiment_network_sparse_2.png" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>

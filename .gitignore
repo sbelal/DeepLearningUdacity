@@ -245,3 +245,4 @@ ModelManifest.xml
 .fake/
 /LinearRegression/env
 /Project01_FirstNeuralNet/.ipynb_checkpoints
+/SentimentAnalysis/sentiment_network/.ipynb_checkpoints
