@@ -246,3 +246,14 @@ ModelManifest.xml
 /LinearRegression/env
 /Project01_FirstNeuralNet/.ipynb_checkpoints
 /SentimentAnalysis/sentiment_network/.ipynb_checkpoints
+/Project02_ImageClassification/.ipynb_checkpoints
+/Project02_ImageClassification/__pycache__
+/Project02_ImageClassification/cifar-10-batches-py
+/Project02_ImageClassification/cifar-10-python.tar.gz
+/Project02_ImageClassification/preprocess_validation.p
+/Project02_ImageClassification/preprocess_training.p
+/Project02_ImageClassification/preprocess_batch_5.p
+/Project02_ImageClassification/preprocess_batch_4.p
+/Project02_ImageClassification/preprocess_batch_3.p
+/Project02_ImageClassification/preprocess_batch_2.p
+/Project02_ImageClassification/preprocess_batch_1.p
