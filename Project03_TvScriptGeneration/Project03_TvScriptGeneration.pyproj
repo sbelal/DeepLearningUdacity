@@ -12,6 +12,8 @@
     <OutputPath>.</OutputPath>
     <Name>Project03_TvScriptGeneration</Name>
     <RootNamespace>Project03_TvScriptGeneration</RootNamespace>
+    <InterpreterId>{31adc778-3bc0-46b2-ab2a-43cfd5176c01}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,6 +35,9 @@
   <ItemGroup>
     <Content Include="data\simpsons\moes_tavern_lines.txt" />
     <Content Include="dlnd_tv_script_generation.ipynb" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{31adc778-3bc0-46b2-ab2a-43cfd5176c01}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
