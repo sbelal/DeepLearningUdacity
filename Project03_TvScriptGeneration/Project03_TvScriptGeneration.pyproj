@@ -34,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\simpsons\moes_tavern_lines.txt" />
+    <Content Include="dlnd_tv_script_generation.html" />
     <Content Include="dlnd_tv_script_generation.ipynb" />
   </ItemGroup>
   <ItemGroup>

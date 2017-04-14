@@ -257,3 +257,10 @@ ModelManifest.xml
 /Project02_ImageClassification/preprocess_batch_3.p
 /Project02_ImageClassification/preprocess_batch_2.p
 /Project02_ImageClassification/preprocess_batch_1.p
+/Project03_TvScriptGeneration/__pycache__
+/Project03_TvScriptGeneration/.ipynb_checkpoints
+/Project03_TvScriptGeneration/checkpoint
+/Project03_TvScriptGeneration/preprocess.p
+/Project03_TvScriptGeneration/params.p
+/Project03_TvScriptGeneration/save.index
+/Project03_TvScriptGeneration/save.data-00000-of-00001
