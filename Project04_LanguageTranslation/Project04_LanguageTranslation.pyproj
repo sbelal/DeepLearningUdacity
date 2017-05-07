@@ -24,23 +24,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="helper.py" />
     <Compile Include="Project04_LanguageTranslation.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{31adc778-3bc0-46b2-ab2a-43cfd5176c01}\3.5" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="data\" />
-    <Folder Include="images\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="data\letters_source.txt" />
-    <Content Include="data\letters_target.txt" />
-    <Content Include="images\sequence-to-sequence-inference-decoder.png" />
-    <Content Include="images\sequence-to-sequence-training-decoder.png" />
-    <Content Include="images\sequence-to-sequence.jpg" />
-    <Content Include="sequence_to_sequence_implementation.ipynb" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
