@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>53b78fcd-7d44-4908-a242-0850d0926870</ProjectGuid>
+    <ProjectGuid>074c5c61-7b3c-45a4-b3ea-852eb114ca2a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Project04_LanguageTranslation.py</StartupFile>
+    <StartupFile>LearnPython.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Project04_LanguageTranslation</Name>
-    <RootNamespace>Project04_LanguageTranslation</RootNamespace>
+    <Name>LearnPython</Name>
+    <RootNamespace>LearnPython</RootNamespace>
     <InterpreterId>{31adc778-3bc0-46b2-ab2a-43cfd5176c01}</InterpreterId>
     <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
@@ -24,23 +24,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="helper.py" />
-    <Compile Include="Project04_LanguageTranslation.py" />
+    <Compile Include="LearnPython.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{31adc778-3bc0-46b2-ab2a-43cfd5176c01}\3.5" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="data\" />
-    <Folder Include="images\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="data\letters_source.txt" />
-    <Content Include="data\letters_target.txt" />
-    <Content Include="images\sequence-to-sequence-inference-decoder.png" />
-    <Content Include="images\sequence-to-sequence-training-decoder.png" />
-    <Content Include="images\sequence-to-sequence.jpg" />
-    <Content Include="sequence_to_sequence_implementation.ipynb" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
