@@ -265,3 +265,5 @@ ModelManifest.xml
 /Project03_TvScriptGeneration/save.index
 /Project03_TvScriptGeneration/save.data-00000-of-00001
 /Project04_LanguageTranslation/__pycache__
+/Project04_LanguageTranslation/.ipynb_checkpoints
+/Project04_LanguageTranslation/preprocess.p
