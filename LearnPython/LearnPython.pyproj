@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>074c5c61-7b3c-45a4-b3ea-852eb114ca2a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LearnPython.py</StartupFile>
+    <StartupFile>LearnTensorFlow.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

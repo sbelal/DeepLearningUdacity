@@ -25,6 +25,22 @@ print(result)
 
 
 
+
+testInput = [[1, 2, 3, 4], [1, 4, 3,7], [4, 2, 5, 8]]
+a1 = tf.placeholder(tf.int32,[None,None])
+embeddings = tf.Variable(tf.random_uniform([30, 5]))
+embedLayer = tf.nn.embedding_lookup(embeddings, a1)
+init = tf.global_variables_initializer()
+sess.run(init)
+print(sess.run(embedLayer, feed_dict={a1:testInput}))
+
+
+
+
+
+
+
+
 W = tf.Variable([.3], tf.float32)
 b = tf.Variable([-.3], tf.float32)
 x = tf.placeholder(tf.float32)
@@ -49,6 +65,8 @@ for i in range(1000):
   sess.run(train, {x:[1,2,3,4], y:[0,-1,-2,-3]})
 
 print(sess.run([W, b]))
+
+
 
 
 
