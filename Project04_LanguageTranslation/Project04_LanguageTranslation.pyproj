@@ -37,6 +37,7 @@
   <ItemGroup>
     <Content Include="data\small_vocab_en" />
     <Content Include="data\small_vocab_fr" />
+    <Content Include="dlnd_language_translation.html" />
     <Content Include="dlnd_language_translation.ipynb" />
   </ItemGroup>
   <PropertyGroup>
