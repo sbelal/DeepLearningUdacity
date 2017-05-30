@@ -23,6 +23,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Project04_LanguageTranslati
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LearnPython", "LearnPython\LearnPython.pyproj", "{074C5C61-7B3C-45A4-B3EA-852EB114CA2A}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Project05_FaceGeneration", "Project05_FaceGeneration\Project05_FaceGeneration.pyproj", "{EEACD1D1-8037-4CD4-8A33-473078E1DC85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,8 @@ Global
 		{53B78FCD-7D44-4908-A242-0850D0926870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{074C5C61-7B3C-45A4-B3EA-852EB114CA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{074C5C61-7B3C-45A4-B3EA-852EB114CA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEACD1D1-8037-4CD4-8A33-473078E1DC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEACD1D1-8037-4CD4-8A33-473078E1DC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
