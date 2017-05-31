@@ -32,6 +32,7 @@
     <InterpreterReference Include="{31adc778-3bc0-46b2-ab2a-43cfd5176c01}\3.5" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dlnd_face_generation.html" />
     <Content Include="dlnd_face_generation.ipynb" />
     <Content Include="floyd_requirements.txt" />
   </ItemGroup>
